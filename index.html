@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style type="text/css">
+    body{
+    margin-left: 20px;
+    max-width: 800px;
+    }
+    input, button{
+        border: 2px solid black;
+        border-radius: 4px;
+    }
+    button{
+        margin-left: 5px;
+    }
+    </style>
+</head>
+<body>
+    
+    <p>Задача 1. Создайте список с возможностью удаления элементов списка (Используйте createElement(),
+        appendChild(), removeChild()). Элемент списка не должен быть пустым
+    </p>
+    <div class="task1">
+        <div>
+            <label for="item">Enter a new item:</label>
+            <input type="text" name="item" id="item">
+            <button id="btn1">Add item</button>
+        </div>
+        <ul id="list">
+        </ul>
+    </div>
+
+    <p>Задача 2. Даны инпуты с классом .num и кнопка. По нажатию на кнопку получите числа, стоящие в этих инпутах
+        и запишите их сумму в абзац с id="result"
+    </p>
+    <div class="task2">
+        <div class="div2">
+            <input type="text" class="num">
+            <input type="text" class="num">
+            <input type="text" class="num">
+            <button class="btn">ок</button>
+            <p id="result"></p>
+        </div>
+    </div>
+</body>
+<script src="code.js"></script>
+</html>
